@@ -29,8 +29,8 @@ translation = settings.getLocalizedString
 class SimpleXbmcGui(object):
   def __init__(self):
     self.settings = xbmcaddon.Addon(id='plugin.video.mediathek');
-    self.quality = int(xbmcplugin.getSetting(int(sys.argv[1]), "quality" ));
-    self.preferedStreamTyp = int(xbmcplugin.getSetting(int(sys.argv[1]), "preferedStreamType"));
+    self.quality = int(xbmcplugin.getSetting("quality" ));
+    self.preferedStreamTyp = int(xbmcplugin.getSetting("preferedStreamType"));
     
     self.log("quality: %s"%(self.quality));
     
