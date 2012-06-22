@@ -1,3 +1,8 @@
+0.3.0 - FIX: Get ARD working again (base code from soern)
+        FIX: NDR streams / NDR changed their streaming adresses by soern
+        FIX: WDR add search function, add stream duration, add "pageSize" optioni (Soern)
+        FIX: bayrisches FS podcasts eingefügt, Auswahl nach Sendungen, Suche (Soern)
+        FIX: Soern completed the NDR implementation
 0.2.9 - ADD: Apply patches from soern to Dharma/XBox version
 0.2.8 - ADD: KIKA (Without Kikaninchen)
         FIX: 3SAT Broken Link
